@@ -1,0 +1,26 @@
+@import 'src/variables';
+
+.app-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6px;
+  background-color: $primary;
+
+  &__image {
+    width: 100%;
+    aspect-ratio: 1;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 6px 0;
+  }
+
+  &__desc {
+    color: $secondary;
+    margin-bottom: 6px;
+  }
+}

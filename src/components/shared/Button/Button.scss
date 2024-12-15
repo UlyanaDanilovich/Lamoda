@@ -1,0 +1,22 @@
+.button {
+  padding: 4px 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.button:hover:not(.button-disabled) {
+  border-color: black;
+}
+.button:focus:not(.button-disabled),
+.button:focus-visible:not(.button-disabled) {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button-active {
+  cursor: default;
+  background-color: white !important;
+}
+
+.button-disabled {
+  cursor: no-drop;
+  background-color: rgba(128, 128, 128, 0.5) !important;
+}

@@ -1,0 +1,12 @@
+@import 'src/variables';
+
+.label {
+  padding: 6px 12px;
+  font-weight: 700;
+  background-color: $primary;
+}
+
+.not-found {
+  width: 100%;
+  height: min-content;
+}

@@ -1,0 +1,17 @@
+@import 'src/variables';
+
+.app-search {
+  display: flex;
+
+  &__icon {
+    background-color: white;
+    padding: 8px;
+    border: 1px solid black;
+  }
+
+  &__input {
+    padding: 4px;
+    width: 100%;
+    border-left: none;
+  }
+}
